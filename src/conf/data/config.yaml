@@ -1,0 +1,23 @@
+# Configuration of Data files
+
+spheres:
+  type_of_data: 'BROKEN SPHERES'
+
+  root_directory: '../SPHERES/wSA_broken_sphere'
+
+  # Directory with files of original data
+  orinal_directory: '../SPHERES/ORIGINAL_GENERATED_DATA'
+
+  # File mask to distinguish right original data
+  original_mask: 'broken_sphere_*.csv'
+
+real_data:
+  type_of_data: 'REAL DATA'
+
+  root_directory: '../REAL_DATA_BOOTSTRAP'
+
+  # Directory with files of original data
+  orinal_directory: '../REAL_DATA_BOOTSTRAP/ORIGINAL_SUBSETS_DATA'
+
+  # File mask to distinguish right original data
+  original_mask: '*.csv'

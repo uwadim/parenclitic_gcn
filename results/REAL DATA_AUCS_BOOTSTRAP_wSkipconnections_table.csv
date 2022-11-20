@@ -1,0 +1,5 @@
+Name_Of_Data;Type_Of_Sphere;Type_Of_Result;model;Type_of_Network;AUC_train;AUC_test
+Banknote_20_9;REAL DATA;Skip GCN;Not used;wSA;0.9925;0.98
+Arrhythmia_20_1;REAL DATA;Skip GCN;Not used;wSA;0.8775;0.6775
+Arrhythmia_20_2;REAL DATA;Skip GCN;Not used;wSA;0.99;0.6725
+Banknote_20_8;REAL DATA;Skip GCN;Not used;wSA;0.995;0.9824999999999999

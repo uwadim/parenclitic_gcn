@@ -1,0 +1,23 @@
+# Configuration of script for learning graph embeddings
+# Add other config files
+defaults:
+  - _self_
+  # Config for load data files
+  - data: config
+  # Config for model parameters
+  - model: config
+  # Custom logging
+  - override hydra/job_logging: custom
+
+# Override hydra output
+hydra:
+  run:
+    dir: .
+
+# For model training
+learning_rate: 0.005
+
+max_epoch: 1000
+
+# Number of epochs to wait of decreasing of test loss before early stop
+patience: 300

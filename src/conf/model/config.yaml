@@ -1,0 +1,14 @@
+# Model parameters
+
+embedding_size: 6
+
+dropout_rate: 0.2
+
+random_seed: 17
+
+batch_size: 1000
+
+# Number of splits for cross validation
+n_splits: 3
+
+number_of_layers: 3
